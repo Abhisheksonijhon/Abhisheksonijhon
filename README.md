@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Abhisheksonijhon
+- 👋 Hi, I’m @Abhisheksoni
 - 👀 I’m interested in python, sql, javascript, css & html and explore new learning projects
 - 🌱 I’m currently learning coding python full stack developer
 - 💞️ I’m looking to collaborate on python mini beginner projects
