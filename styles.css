@@ -1,0 +1,83 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
+
+.section {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Dark Mode */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Animations */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .header, .nav, .footer {
+        padding: 10px;
+    }
+    .nav a {
+        padding: 10px;
+    }
+}
+
+/* Component Styling */
+.card {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
