@@ -1,33 +1,26 @@
-# Hi, I'm Abhishek 👋
+# Portfolio Setup Guide
 
-**Data Analyst | Business Analyst | Financial Background**
+## Installation
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/Abhisheksonijhon/Abhisheksonijhon.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd Abhisheksonijhon
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-📊 **Expertise:**
-- Data Analysis & Visualization (Tableau, Power BI)
-- SQL & Python for data processing
-- Dashboard Design & Business Insights
-- Databricks & Data Pipelines
-- Excel & Advanced Analytics
+## Customization Instructions
+1. Open the `config.js` file located in the root directory of the project.
+2. Modify the variables according to your portfolio needs:
+   - Change the title of your portfolio.
+   - Update your profile information.
+   - Add your projects in the projects section.
 
-💼 **Background:**
-- MBA in Finance & Marketing
-- MRP- NPA Comparison Project
-- IIFL Securities Intern
-- Tech Support Manager at FinTech Startup
-- Business Development & Project Coordinator at Advertising Media
+3. For styling changes, adjust the `styles.css` file in the `css` directory.
 
-🔧 **Tech Stack:**
-- Languages: Python, SQL
-- BI Tools: Tableau, Power BI
-- Databases: SQL, Databricks
-- Tools: Excel (Pivot, Advanced), Git
-
-📌 **Currently:** Building expertise in data pipelines and analytics while completing real-world projects
-
-🎓 **Certifications:** Databricks Certified (Basic)
-
----
-
-**Featured Projects Below** 👇
-
-[Portfolio Website](#) | [LinkedIn](https://www.linkedin.com/in/abhisheksoni06) | [Email](soni08006@gmail.com)
+4. To deploy your portfolio, follow the steps provided in the deployment section of this README.
